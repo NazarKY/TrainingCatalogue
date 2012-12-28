@@ -1,0 +1,33 @@
+<!DOCTYPE HTML">
+<html>
+	<head>
+		<title>TrainingCatalog</title>
+  		<%= stylesheet_link_tag    "application", :media => "all" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+  
+		<meta charset="utf-8">
+		<link href="css/cupertino/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+		<script src="js/jquery-1.8.3.js"></script>
+		<script src="js/jquery-ui-1.9.2.custom.js"></script>
+				
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		
+		<!-- Roma files-->
+		<script src="js/menu.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/topMenu.css">
+		
+		<!-- Vlad philes-->
+		<script src="js/hotTrainings.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/hotTrainings.css">
+
+		<!-- Volodia philes-->
+		<script src="js/toptrainings.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/toptrainings.css">
+		
+		
+	</head>
+<body> 
+<%= yield %>
+</body>
+</html>
